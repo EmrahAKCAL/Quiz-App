@@ -1,0 +1,119 @@
+body{
+    background-color: aliceblue;
+}
+.quise-box{
+    margin: auto; 
+    margin-top: 50px;
+    min-width: 460px;
+    max-width: 800px;
+    text-align: center;
+}
+#start-btn{
+    border: none;
+    border-bottom: none;
+    width: 200px;
+    height: 60px;
+    padding: 10px;
+    font-size: 35px;
+    border-radius: 80px 80px 0px 0px;
+    background-image: linear-gradient(#e6e1df, #003cff, #003cff, #003cff);
+    color: white;
+    cursor: pointer;
+}
+#start-btn:hover{
+    opacity: .5;
+}
+#container{
+    border: 1px solid  #ffb62e;
+    border-top: none;
+    background-color: #fafafa;
+    border-radius: 0px 50px; 
+}
+#card-header{
+    height: 60px;
+    background-image: linear-gradient(#e6e1df, #f09f09, #ffa500, #ffa500);
+    color: #ffffff;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 35px;
+    border-radius: 0px 50px;
+}
+#card-question{
+    display:flex;
+}
+#question-number{
+    height: 50px;
+    width: 50px;
+    background-color: #fcb635;
+    border-radius: 0px 20px 0px 0px;
+    font-size: 35px;
+    text-align: center;
+    color: honeydew;
+    
+}
+#question{
+    font-size: 22px;
+    margin: 0;
+    padding: 10px;
+    text-indent: 30px;
+    line-height: 140%;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-align: justify;
+    margin-bottom: 40px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.btn{
+    color: rgb(167, 109, 1);
+    font-size: 20px;
+    padding:5px;
+    display: block;
+    margin: 10px;
+    border: 1px solid #ffa500;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: green;
+    color: white;
+}
+#card-footer{
+    padding: 30px;
+    background-image: linear-gradient(#ffa500, #ff3604);
+    border-radius: 0px 50px;
+    text-align: center;
+}
+#question-index{
+    font-size: 25px;
+    color: rgb(37, 32, 109);
+    background-color: #c7ca1d70;
+    padding: 15px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.direction-btn{
+    display: flex;
+    background-color: #ffa500;
+    font-size: 22px;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+.direction-btn:hover{
+    color: #ffa500;
+    background-color: #ffffff;
+}
+.btn-left{
+    float: left;
+}
+.pre-btn{
+    padding-right: 15px; 
+}
+.btn-right{
+    float: right;
+}
+.next-btn{
+    padding-left: 15px; 
+}

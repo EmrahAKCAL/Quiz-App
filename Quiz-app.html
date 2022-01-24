@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Indie+Flower&family=Lato&family=Noto+Serif:ital@1&family=Nunito+Sans:wght@300&family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="Quiz-app.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="quise-box">
+        <button id="start-btn">Start</button>
+    <div id="container">
+        <div id="card-header">
+            Quiz
+        </div>
+        <div id="card-body">
+            <div id="card-question">
+                <div id="question-number"></div>
+                <h5 id="question"></h5>
+            </div>
+            <div id="buttons">
+                <button id="btn0" class="btn">
+                    A) <span id="choice0"></span>
+                </button>
+                <button id="btn1" class="btn">
+                    B) <span id="choice1"></span>
+                </button>
+                <button id="btn2" class="btn">
+                    C) <span id="choice2"></span>
+                </button>
+                <button id="btn3" class="btn">
+                    D) <span id="choice3"></span>
+                </button>
+            </div>
+        </div>
+        <div id="card-footer">
+            <div class="btn-left direction-btn"><i class="fas fa-chevron-left pre-btn"></i>Previous</div>
+            <div id="question-index"></div>
+            <div class="btn-right direction-btn">Next<i class="fas fa-chevron-right next-btn"></i></div>
+    </div>
+    </div>
+    </div>
+    <script src="Quiz-app.js"></script>
+</body>
+</html>
